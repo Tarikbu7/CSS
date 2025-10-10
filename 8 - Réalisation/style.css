@@ -1,0 +1,398 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+
+}
+
+.first{
+position: absolute;
+left: 510px;
+top: 30px;
+background: #00b3b3;
+box-shadow: 0 0 5px #00b3b3,
+             0 0 10px #00b3b3,
+             0 0 20px #00b3b3;
+border-radius: 20px;
+}
+
+
+.second img{
+position: absolute;
+top: 170px;
+left: 170px;
+border-radius: 20px;
+width: 900px;
+
+
+}
+.third{
+  text-align: center;
+display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 900px;
+  width: 1250px;        
+  height: 80px;      
+  border-radius: 20px;
+  background: #00b3b3;
+box-shadow: 0 0 5px #00b3b3,
+             0 0 10px #00b3b3,
+             0 0 20px #00b3b3;
+}
+.third h1{
+
+
+position: absolute;
+left: 550px;
+
+}
+
+
+
+
+
+.fourth{
+
+background: #0f2027;   /* dark navy */
+background: linear-gradient(90deg, #203a43, #2c5364);
+color: #e6faff;
+position: absolute;
+top: 1100px;
+text-align: center;
+width: 1000px;
+left: 150px;
+border-radius: 20px;
+font-size: 1.5rem;
+
+
+}
+
+.fifth ul {
+   display: flex;  
+  font-size: 1.4rem;
+
+  justify-content: center;     
+  align-items: center;         
+  gap: 50px;                   
+  list-style: none; 
+ position: absolute;
+top: 1300px;
+left: 440px;
+}
+
+.fifth li{
+
+background-color: #00b3b3;
+border-radius: 20px;
+padding: 15px;
+ 
+}
+.fifth li:hover{
+ background: #00b3b3;         
+          
+  box-shadow: 0 0 5px #00b3b3,
+             0 0 10px #00b3b3,
+             0 0 20px #00b3b3;
+  transform: scale(1.1); 
+  color: aqua;
+  box-shadow: aqua;
+}
+footer{
+
+position: absolute;
+top: 1500px;
+background: aqua;
+left: 30px;
+border-radius: 20px;
+font-size: 1.3rem;
+
+
+
+}
+.sixth{
+position: absolute;
+text-align: center;
+top: 30px;
+left: 460px;
+padding: 20px;
+width: 300px;
+background: aqua;
+border-radius: 20px;
+text-align: center;
+
+
+
+}
+
+
+.seventh img{
+
+position: absolute;
+top: 180px;
+left: 200px;
+border-radius: 20px;
+width: 850px;
+
+
+}
+
+.oled{
+background: aqua;
+color: black;
+position: absolute;
+top: 850px;
+right: 0px;
+left: 0px;
+width: 125
+80px;
+
+border-radius: 20px;
+text-align: center;
+font-size: 1.2rem;
+
+height: 140px;
+
+
+
+}
+
+.qled{
+
+display: grid;
+grid-template-columns: 200px 1fr;
+grid-template-rows: 80px 1fr 60px;
+gap: 10px;
+height: 100vh;
+
+
+
+}
+.adi{
+
+grid-column:1/3 ;
+text-align: center;
+background: aqua;
+color: black;
+margin: 2px auto;
+position: absolute;
+right: 410px;
+top: 1100px;
+border-radius: 10px;
+padding: 18px;
+
+}
+.adi:hover{
+
+background: #b300a4;
+color: black;
+}
+
+.jnab{
+grid-column:1/3;
+background: aqua;
+color: black;
+position: absolute;
+right: 750px;
+top: 1100px;
+border-radius: 10px;
+padding: 20px;
+}
+
+
+.kk{
+ background: aqua;
+ color: black;
+ position: absolute;
+ top: 1400px;
+ left: 150px;
+ border-radius: 10px;
+ width: 1000px;
+ text-align: center;
+}
+.kk h1{
+  text-decoration: underline;
+}
+
+.don ul{
+
+display: flex;  
+  font-size: 1.4rem;
+
+  justify-content: center;     
+  align-items: center;         
+  gap: 50px;                   
+  list-style: none; 
+ position: absolute;
+top: 1600px;
+left: 430px;
+
+
+
+}
+
+
+.don li{
+padding: 20px;
+background: aqua;
+color: black;
+font-size: 1.3rem;
+border-radius: 20px;
+
+
+}
+
+
+.don li:hover{
+
+
+  background: #00b3b3;         
+          
+  box-shadow: 0 0 5px #00b3b3,
+             0 0 10px #00b3b3,
+             0 0 20px #00b3b3;
+  transform: scale(1.1); 
+  color: aqua;
+  box-shadow: aqua;
+}
+
+.f{
+position: absolute;
+top: 1750px;
+background:aqua;
+left: 30px;
+border-radius: 20px;
+font-size: 1.4rem;
+padding: 1px;
+text-decoration: underline;
+}
+
+
+.msi{
+
+background: aqua;
+color: black;
+position: absolute;
+left: 500px;
+border-radius: 10px;
+width: 300px;
+text-align: center;
+top: 30px;
+text-decoration: underline;
+}
+
+.msii img{
+position: absolute;
+top: 160px;
+left: 200px;
+border-radius: 20px;
+width: 900px;
+
+
+
+
+}
+
+.logi{
+
+background: aqua;
+color: black;
+position: absolute;
+top: 810px;
+left: 5px;
+border-radius: 10px;
+width: 1170px;
+text-align: center;
+padding: 40px;
+text-decoration: underline;
+color: black;
+text-align: center;
+align-items: center;
+}
+
+
+.logi h1{
+position: absolute;
+top: -15px;
+left: 550px;
+}
+
+.xbox{
+background: aqua;
+color: black;
+position: absolute;
+top: 960px;
+left: 490px;
+border-radius: 10px;
+width: 380px;
+font-size: 1.2rem;
+}
+
+.samsung{
+position: absolute;
+top: 1200px;
+left: 400px;
+background: aqua;
+border-radius: 10px;
+width: 600px;
+
+}
+
+
+
+.samsung h2{
+  text-decoration: underline;
+}
+
+.cris ul{
+
+display: flex;  
+  font-size: 1.4rem;
+
+  justify-content: center;     
+  align-items: center;         
+  gap: 50px;                   
+  list-style: none; 
+ position: absolute;
+top: 1500px;
+left: 430px;
+
+
+
+}
+
+
+.cris li{
+padding: 20px;
+background: aqua;
+color: black;
+font-size: 1.3rem;
+border-radius: 20px;
+
+
+}
+
+
+.cris li:hover{
+
+
+  background: #00b3b3;         
+          
+  box-shadow: 0 0 5px #00b3b3,
+             0 0 10px #00b3b3,
+             0 0 20px #00b3b3;
+  transform: scale(1.1); 
+  color: aqua;
+  box-shadow: aqua;
+}
+
+
+.man{
+
+position: absolute;
+top: 1700px;
+background: aqua;
+border-radius: 10px;
+font-size: 1.3rem;
+
+
+}
