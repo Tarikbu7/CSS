@@ -1,0 +1,78 @@
+/* ==========================================================================
+   GLOBAL STYLES (The Layout)
+   ========================================================================== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  gap: 40px;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   1. TRANSITION (Smooth change on hover)
+   ========================================================================== */
+.btn {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  
+  /* Smoothly transitions the background and size over 0.3 seconds */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Target state when your mouse hovers over it */
+.btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.08); /* Makes it 8% larger */
+}
+
+/* ==========================================================================
+   2. ANIMATION (Infinite autonomous loop)
+   ========================================================================== */
+/* Define the keyframes (the movement path) */
+@keyframes vibration {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.alerte {
+  background-color: #e74c3c;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  box-sizing: border-box;
+  
+  /* Links the keyframes above to this class */
+  /* Format: name | duration | timing | repetition */
+  animation: vibration 0.5s ease-in-out infinite;
+}
