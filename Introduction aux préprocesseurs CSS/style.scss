@@ -1,0 +1,15 @@
+$couleur-principale: #e74c3c;
+$rayon-bordure: 5px;
+
+button {
+  background-color: $couleur-principale;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: $rayon-bordure;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($couleur-principale, 10%);
+  }
+}
