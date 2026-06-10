@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  flex: 2;
+  background: #ecf0f1;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+  background: #bdc3c7;
+  padding: 20px;
+}
+
+/* Media Query pour écrans <= 768px */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  section, aside {
+    flex: none;
+    width: 100%;
+  }
+}
