@@ -1,0 +1,22 @@
+:root {
+  --couleur-principale: #3498db;
+  --couleur-texte: white;
+  --espacement: 15px;
+  --rayon-bordure: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: var(--espacement);
+}
+
+button {
+  background-color: var(--couleur-principale);
+  color: var(--couleur-texte);
+  padding: var(--espacement);
+  border: none;
+  border-radius: var(--rayon-bordure);
+  cursor: pointer;
+}
